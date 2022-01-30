@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Maze generation</title>
+</head>
+
+<body>
+    <pre id="out"></pre>
+    <!-- Main -->
+    <script src="./main.js"></script>
+    <script type="text/javascript">
+        var m = maze(8, 11);
+        console.log(m);
+        document.getElementById('out').innerHTML = display(m); 
+    </script>
+</body>
+
+</html>
